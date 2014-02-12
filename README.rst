@@ -63,5 +63,9 @@ template file using the Jinja2 macro syntax.  In the above example,
 the ``value`` corresponding to ``key1`` can be used in the mail like this:
 ``{{ key1 }}``.
 
-The template file use the Jina2 template language.
+To comment any line, add ``#`` character at the beginning of that
+line.  More specifically, the ``#`` should be the first character in
+that line.
+
+The template file use the Jinja2 template language.
 
