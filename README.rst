@@ -9,7 +9,7 @@ The ``-c``, ``-s`` and ``-t`` options are mandatory::
   optional arguments:
     -h, --help            show this help message and exit
     -c CONFIG, --config CONFIG
-                          Configguration file
+                          Configuration file
     -s SUBJECT, --subject SUBJECT
                           Mail subject
     -t TEMPLATE, --template TEMPLATE
@@ -18,7 +18,7 @@ The ``-c``, ``-s`` and ``-t`` options are mandatory::
 An example configuration file is available at ``conf/example1.cfg``.
 An example template file is available at ``conf/example1.template``.
 
-Any value inside the configuration can be overriden using a specially
+Any value inside the configuration can be overridden using a specially
 formatted environment variable. The environment variable name should
 be in this format: PUBLICITY_<SECTION>_<KEY>
 
@@ -32,7 +32,7 @@ this::
 
   publicitymail -c /path/to/config.cfg -s "The mail subject" -t /path/to/some.template
 
-It is reccommened to use separate configuration and template for different mails.
+It is recommended to use separate configuration and template for different mails.
 
 The configuration
 -----------------

@@ -54,7 +54,7 @@ def parse_config(config_path, section='main'):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", help="Configguration file")
+    parser.add_argument("-c", "--config", help="Configuration file")
     parser.add_argument("-s", "--subject", help="Mail subject")
     parser.add_argument("-t", "--template", help="Mail body template")
     args = parser.parse_args()
